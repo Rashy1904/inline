@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>CSS Specificity & Size Example</title>
+   
+    <link rel="stylesheet" href="data:text/css,.ext{color:green; font-size: 33px;} .override-me{color: purple;}">
+    
+    <style>
+    
+        .int { 
+            color: blue; 
+            font-size: 22px; 
+        }
+        
+    
+        }
+    </style>
+</head>
+<body>
+
+  
+    <p class="ext">1. Inline Style </p>
+    
+    <p class="int">2. Enternal Style </p>
+    
+    <p class="int" style="color: red; font-size: 19px;">3.Internal Style </p>
+
+
+</body>
+</html>
